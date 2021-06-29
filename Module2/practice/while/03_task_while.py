@@ -8,5 +8,11 @@
 # 12
 # 123
 # 1234
-
-# TODO: your code here
+num = int(input(":"))
+i = 1
+con = i
+while num >= i:
+    print(con)
+    con *= 10
+    con += i + 1
+    i += 1
