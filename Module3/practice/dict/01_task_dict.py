@@ -10,5 +10,5 @@ dollar_rate = 74.12
 # TODO: your code here
 
 
-print(f'цена { float(item["price"])  * dollar_rate * float(item["count"]) } долларов ')
+print(f'цена { float(item["price"])  / dollar_rate * float(item["count"]) } долларов ')
 
