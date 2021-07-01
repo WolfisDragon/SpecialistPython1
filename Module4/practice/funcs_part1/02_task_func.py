@@ -4,7 +4,18 @@
 # * попробуйте решить данную задачу, не преобразуя число к строке
 
 def palindrome(number):
-    pass
+    n1 = number
+    n2 = 0
+    while n1 > 0:
+        digit = n1 % 10
+        n1 = n1 // 10
+        n2 = n2 * 10
+        n2 = n2 + digit
+    if number == n2:
+        res = "Yes"
+    else:
+        res = "No"
+    return (res)
 
 
 # Тестируем функцию
