@@ -7,3 +7,7 @@ values = ['Петр', 'Первый', 42, 1300]
 # TODO: your code here
 # Нужно получить словарь:
 # {'name': 'Петр', 'surname': 'Первый', 'age': 42, 'rate': 1300}
+gate = {}
+for value, key in zip(values, keys):
+    gate[key] = value
+print(gate)
